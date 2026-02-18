@@ -21,12 +21,13 @@ Multi-Class Classification
 
 **Example disease classes:**
 
-Diabetes
-Heart Disease
-Hypertension
-Obesity
-No Disease
-Sleep pattern
+Cardiovascular - blood_pressure, heart_rate, cholesterol
+Metabolic - glucose, insulin
+Lifestyle - smoking, alcohol, diet, exercise, sleep
+Mental health - stress_level, mental_health_score
+Socioeconomic - income, education_level, healthcare_access
+Genetic - family_history
+Behavioral - screen_time, device_usage
 
 **Dataset**
 
