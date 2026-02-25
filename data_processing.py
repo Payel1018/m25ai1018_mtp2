@@ -56,10 +56,15 @@ class DataPreprocess:
 
     def create_disease_labels(self):
 
+        # High Insulin Flag (Assuming fasting insulin in µIU/mL)
+        self.df['High_Insulin'] = np.where(
+            self.df['insulin'] > 25, 1, 0
+        )
         # Diabetes
         self.df['Diabetes'] = np.where(
             (self.df['glucose'] >= 126) |
-            ((self.df['bmi'] >= 30) & (self.df['sugar_intake'] > 50)),
+            ((self.df['bmi'] >= 30) & (self.df['sugar_intake'] > 50)) |
+              ( (self.df['High_Insulin'] == 1)),
             1, 0
         )
 
