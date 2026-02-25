@@ -8,7 +8,7 @@ A Machine Learning project that predicts multiple disease types based on lifesty
 
 **Project Objective**
 
-The goal of this project is to:
+The goal of this project is to::
 
 Predict disease categories using lifestyle data
 Implement multiple machine learning classification models
