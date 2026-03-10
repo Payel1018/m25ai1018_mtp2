@@ -53,7 +53,7 @@ class DataPreprocess:
         )
 
         print("Categorical encoding completed.")
-
+## All assumptions made here are based on Medical referrance to Max Normal value an individual can have to be considerred in range
     def create_disease_labels(self):
 
         # High Insulin Flag (Assuming fasting insulin in µIU/mL)
