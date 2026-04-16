@@ -58,11 +58,11 @@ Label encoding target variable
 3. Models Implemented
 
 Logistic Regression
-Naive Bayes
 K-Nearest Neighbors (KNN)
 Support Vector Machine (SVM)
 Decision Tree
 Random Forest
+XGBoost
 
 **Evaluation Metrics**
 
@@ -71,4 +71,4 @@ Accuracy
 Precision (Macro Average)
 Recall (Macro Average)
 F1-Score (Macro Average)
-Confusion Matrix 
+
